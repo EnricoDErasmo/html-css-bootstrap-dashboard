@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="css/style.css">
     
     <title>Bootstrap Dashboard</title>
@@ -19,7 +22,53 @@
 
         <div class="__ui-inner-top">
 
-            <nav>
+            <nav class="__navbar d-flex justify-content-between align-items-center gap-3">
+
+                <div id="__logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+
+                <div class="__center-nav flex-grow-1 position-relative">
+                    <input type="text" id="__search-bar" class="rounded-2 border-0" placeholder="Prova a cercare: Lezioni di Laravel ">
+                    <i id="__search-lens" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="__right-nav d-flex align-items-center gap-3">
+
+                    <a href="" class="text-reset">
+                        <i class="fa-solid fa-list"></i>
+                    </a>
+
+                    <a href="" class="text-reset">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </a>
+
+                    <a href="" class="text-reset">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+
+                    <!-- Offcanvas right -->
+
+                    <i id="__bell" class="fa-solid fa-bell" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                      <div class="offcanvas-header">
+
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      
+                      </div>
+
+                      <div class="offcanvas-body">
+
+
+                      </div>
+
+                    </div>
+                    <!-- /Offcanvas right -->
+
+                </div>
 
             </nav>
 
