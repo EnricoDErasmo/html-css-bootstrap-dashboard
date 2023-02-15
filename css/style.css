@@ -1,0 +1,28 @@
+.__ui{
+    width: 100vw;
+}
+
+nav{
+    background-color: red;
+    /* test */
+
+    height: 70px;
+}
+
+.__ui-inner-bot{
+    height: calc(100vh - 70px);
+}
+
+.__side-bar{
+    background-color: blueviolet;
+    /* test */
+
+    width: 150px;
+}
+
+.__main{
+    background-color: bisque;
+    /* test */
+
+    width: calc(100% - 150px);
+}
