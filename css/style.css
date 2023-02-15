@@ -45,6 +45,8 @@
 
 
 .__side-bar{
+    padding: 30px 20px;
+
     width: 150px;
 
     background-image: url(../img/sidebar-bg.png);
