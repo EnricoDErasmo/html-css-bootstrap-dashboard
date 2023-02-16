@@ -26,8 +26,12 @@
 
             <nav class="__navbar d-flex justify-content-between align-items-center gap-3">
 
-                <div id="__logo">
+                <div class="d-none d-lg-block">
                     <img src="img/logo.svg" alt="">
+                </div>
+
+                <div class="__logo-container py-1 d-block d-lg-none">
+                    <img src="img/mobile-logo.png" alt="">
                 </div>
 
                 <div class="__center-nav flex-grow-1 position-relative">
@@ -37,38 +41,21 @@
 
                 <div class="__right-nav d-flex align-items-center gap-3">
 
-                    <a href="" class="text-reset">
+                    <a href="" class="text-reset d-none d-lg-block">
                         <i class="fa-solid fa-list"></i>
                     </a>
 
-                    <a href="" class="text-reset">
+                    <a href="" class="text-reset d-none d-lg-block">
                         <i class="fa-solid fa-circle-question"></i>
                     </a>
 
-                    <a href="" class="text-reset">
+                    <a href="" class="text-reset d-none d-lg-block">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </a>
 
-                    <!-- Offcanvas right -->
-
-                    <i id="__bell" class="fa-solid fa-bell" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-
-                      <div class="offcanvas-header">
-
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      
-                      </div>
-
-                      <div class="offcanvas-body">
-
-
-                      </div>
-
-                    </div>
-                    <!-- /Offcanvas right -->
+                    <a href="" class="text-reset">
+                        <i id="__bell" class="fa-solid fa-bell"></i>
+                    </a>
 
                 </div>
 
@@ -84,7 +71,6 @@
 
 
         <div class="__ui-inner-bot d-flex ">
-
 
 
             <!-- Side-bar -->
@@ -103,7 +89,7 @@
                                     <i class="fa-solid fa-house"></i>
                                 </div>
 
-                                <div>
+                                <div class="d-none d-lg-block">
                                     Home
                                 </div>
 
@@ -119,7 +105,7 @@
                                     <i class="fa-solid fa-chart-simple"></i>
                                 </div>
 
-                                <div>
+                                <div class="d-none d-lg-block">
                                     Stats
                                 </div>
 
@@ -135,7 +121,7 @@
                                     <i class="fa-solid fa-signal"></i>
                                 </div>
 
-                                <div>
+                                <div class="d-none d-lg-block">
                                     Signals
                                 </div>
 
@@ -156,7 +142,7 @@
                             <i class="fa-solid fa-gear"></i>
                         </div>
 
-                        <div>
+                        <div class="d-none d-lg-block">
                             Admin
                         </div>
 
@@ -176,6 +162,107 @@
             
 
             <div class="__main">
+
+                <div class="__main-inner-top text-white d-flex flex-column flex-md-row justify-content-md-between gap-md-2">
+
+                    <div class="__inner-top-left order-2 order-md-1 mb-3 mb-md-0">
+
+                        <div>
+
+                            <span class="fs-2">
+                                Boolean
+                            </span>
+    
+                            <a href="">
+                                <span class="__badge-style badge rounded-pill">Piano blaze</span>
+                            </a>
+                            
+                        </div>
+
+                        <div class="d-flex align-items-center align-items-lg-center gap-2">
+
+                            <a href="">
+                                    <span class="__badge-style badge rounded-pill">3 app</span>
+                            </a>
+
+                            <i class="fa-solid fa-angles-right"></i>
+
+                            <a href="" class="d-block d-lg-none">
+                                <span class="__badge-style badge rounded-pill">+</span>
+                            </a>
+
+                            <ul class="list-unstyled d-none d-lg-flex flex-lg-row m-0 gap-2">
+                                <li>
+                                    <a href="">
+                                        <span class="__badge-style badge rounded-pill">Boolean mobile app</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <span class="__badge-style badge rounded-pill">Boolean web app</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <span class="__badge-style badge rounded-pill">Boolean blog app</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="__inner-top-center order-3 order-md-2 mb-3 mb-md-0">
+
+                        <div class="__inner-top-text">
+                            Studenti on line negli ultimi 30 minuti
+                        </div>
+
+                        <div class="fs-2">
+                            125
+                        </div>
+
+                    </div>
+
+                    <div class="__inner-top_right order-1 order-md-3 mb-3 mb-md-0">
+
+                        <span class="__inner-top-text">
+                            Nuovo Studente
+                        </span>
+
+                        <span>
+
+                            <button class="__btn border border-1 rounded-1 px-2 pb-1  text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                              <div class="offcanvas-header">
+
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                              </div>
+
+                              <div class="offcanvas-body">
+    
+                              </div>
+
+                            </div>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="__main-sec container-fluid">
+
+                </div>
                 
 
 

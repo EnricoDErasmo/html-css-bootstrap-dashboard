@@ -17,6 +17,14 @@
     height: 60px;
 }
 
+.__logo-container{
+    height: 60px;
+}
+
+.__logo-container img{
+    height: 100%;
+}
+
 #__search-bar{
     width: 100%;
 
@@ -63,11 +71,50 @@
 /* Main */
 
 .__main{
-    background-color: bisque;
-    /* test */
-
     width: calc(100% - 150px);
+}
+
+.__main .__main-inner-top{
+    padding: 12px;
+    padding-right: 100px;
+    background-color: #1b72e8;
+}
+
+.__badge-style{
+    font-size: 0.8em;
+
+    background-color: #165bba;
+}
+
+.__inner-top-text{
+    font-size: 0.9em;
+}
+
+.__btn{
+    background-color: #1b72e8;
+}
+
+.__btn .fa-plus{
+    font-size: 0.8em;
 }
 
 
 /* /Main */
+
+
+
+/* Media queries */
+
+
+@media screen and (max-width: 992px) {
+    .__side-bar{
+        width: 65px;
+    }
+
+    .__main{
+        width: calc(100% - 65px);
+    }
+}
+    
+
+
