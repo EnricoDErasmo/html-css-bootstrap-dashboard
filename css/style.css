@@ -119,7 +119,23 @@
     background-color: #f8f9fa;
 }
 
+.card-header{
+    font-size: 1.4em;
+}
+
 /* Table */
+
+.table{
+    font-size: 0.8em;
+}
+
+.table th{
+    width: auto;
+}
+
+.table td{
+    width: 12%;
+}
 
 .fa-code{
     padding: 5px;
