@@ -70,6 +70,9 @@
 
 /* Main */
 
+
+      /* Inner top */
+
 .__main{
     width: calc(100% - 150px);
 }
@@ -106,6 +109,10 @@
     font-size: 0.8em;
 }
 
+#offcanvasRight{
+    width: 45%;
+}
+
 
 /* /Main */
 
@@ -121,6 +128,18 @@
 
     .__main{
         width: calc(100% - 65px);
+    }
+
+    #offcanvasRight{
+        width: 90%;
+    }   
+}
+
+
+
+@media screen and (max-width:768px) {
+    #offcanvasRight{
+        width: 100%;
     }
 }
     
