@@ -113,8 +113,50 @@
     width: 45%;
 }
 
+    /* Main section */
+
+.__main-sec{
+    background-color: #f8f9fa;
+}
+
+/* Table */
+
+.fa-code{
+    padding: 5px;
+
+    border-radius: 50%;
+
+    background-color: #f26551;
+}
+
+.__badge-done{
+    font-size: 0.8em;
+    background-color: #198754;
+}
+
+.__badge-process{
+    font-size: 0.8em;
+    background-color: #ffc107;
+}
+
+.__badge-failed{
+    font-size: 0.8em;
+    background-color: #dc3545;
+}
+
+.__table-cursor i{
+    cursor: pointer;
+}
+
+
+
+
+/* /Table */
+
 
 /* /Main */
+
+
 
 
 
