@@ -86,6 +86,14 @@
     background-color: #165bba;
 }
 
+.__inner-top-center{
+    min-width: 160px;
+}
+
+.__inner-top-right{
+    min-width: 155px;
+}
+
 .__inner-top-text{
     font-size: 0.9em;
 }
